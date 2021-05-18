@@ -5,42 +5,39 @@ import logo from './logo.svg';
 import Header from './header/Header';
 import Content from './content/Content';
 import Footer from './footer/Footer';
-import dataText from './data/dataText.json';
-import dataContry from './data/contry.json';
-import dC2 from './data/contryValue.json';
-
 import './App.css';
 import {Treemap} from "d3plus-react";
 
 // function listContry() {       
 //     return dataContry.filter(item => item.grName != "Z")    
 // }
-const d2 = []
-const uefaConr =  dC2
+// const d2 = []
+// const uefaConr =  dataContry.filter( (cnt) => {
+
+// }
+
+// )
 
 
-const d1 = [ {id: "Россия", value: 29},
-    {id: "Англия",  value: 10}]
-
-
-const methods = {
-  groupBy: "id",
-  data: uefaConr,
-  size: d => d.value
-};
-
-console.log(d2);
-function App(){
+// const methods = {
+//   groupBy: "id",
+//   data: uefaConr,
+//   size: d => d.value
+// };
+function App(props){
+  const stateApp = `<h2>${props.cnt}</h2>`
+ 
   return( 
-         <BrowserRouter >
-            <div className="wrapper">
-                <Header bottomText2= {dataText.bottomText2} bottomText1= {dataText.bottomText1} />
-                <Content/>
-                <Footer dataText= {dataText.footerText} />
-                <Treemap config={methods} />           
-            </div>
-         </BrowserRouter> 
+    <BrowserRouter>
+      <div className="wrapper">
+        {/* <Header textBottom={this.props.textListCont}/> */}
+                {/* <Content/>
+                <Footer />
+                <Treemap /> 
+                   */}
+        <h1>1 {stateApp}</h1>
+      </div>
+    </BrowserRouter>       
       )
-
     }
 export default App;

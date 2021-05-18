@@ -7,16 +7,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import dataText from './data/dataText.json';
-import dataContry from './data/contry.json';
-import dC2 from './data/contryValue.json';
+import state from './redax/state'
 
 
 ReactDOM.render(
   <React.StrictMode>
-<App  dataText= {dataText} dC2= {dC2} dataContry ={dataContry} />
+       <App  state= {state} />
   </React.StrictMode>,
-  document.getElementById('root')
+   document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

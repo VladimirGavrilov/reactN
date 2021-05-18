@@ -8,7 +8,14 @@ import './MapCont.css'
 
 function MapCont(props) {
     const grConts = props.gr.map( (gr) => 
-        <div id={gr.idGr}><h5>{gr.idGr}</h5><p>{gr.playC}</p></div>
+        <div id={gr.idGr}><h5>{gr.idGr}</h5><p>{gr.playC}</p>
+            <div>
+                
+<button>проголосовать</button>
+            </div>
+        </div>
+       
+
 
     )    
     return (      
