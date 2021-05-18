@@ -4,10 +4,10 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import state from './redax/state'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import state from './redax/state'
 
 
 ReactDOM.render(

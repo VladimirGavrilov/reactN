@@ -24,20 +24,20 @@ import {Treemap} from "d3plus-react";
 //   data: uefaConr,
 //   size: d => d.value
 // };
-function App(props){
-  const stateApp = `<h2>${props.cnt}</h2>`
- 
-  return( 
+function App(props){ 
+  //  debugger;
+   return( 
+    
     <BrowserRouter>
       <div className="wrapper">
-        {/* <Header textBottom={this.props.textListCont}/> */}
+         <Header textBottom={props.state.textListCont}/>
                 {/* <Content/>
                 <Footer />
-                <Treemap /> 
-                   */}
-        <h1>1 {stateApp}</h1>
+                <Treemap />  */}
+                  
+         <h1>s</h1>
       </div>
     </BrowserRouter>       
       )
-    }
+}
 export default App;
