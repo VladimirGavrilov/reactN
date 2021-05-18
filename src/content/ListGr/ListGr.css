@@ -1,0 +1,19 @@
+/* .list-Gr-Hidden{
+
+    display: grud;
+    border: 3px double #660c0c;
+
+    /* position: absolute;
+    top: -9999px;
+    left: -9999px; */
+.grCon{
+    display: flex;
+    flex-direction: row;
+   }
+.grCon li{
+    border: 2px solid brown;
+    margin: 5px;
+}
+
+
+

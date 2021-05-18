@@ -1,0 +1,20 @@
+#conteinerMap {
+     display: grid;
+}
+#grContryMap  {
+    display: flex;    
+}
+#grContryMap div{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin: 2px;
+    width: 50%; 
+    align-content: stretch; 
+         
+}
+#grContryMap > div >div{
+   border: 1px solid #4e4c4c;
+       
+}

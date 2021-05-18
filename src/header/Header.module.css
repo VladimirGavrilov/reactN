@@ -1,0 +1,36 @@
+.topHeder{  
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+.topButtonHeder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 1fr;
+    width: 50%;
+    border: 1px solid #413e3e;
+    border-radius: 50px;
+    height: 100%;
+    margin: 1%;
+     
+  }
+
+  .topButtonHeder a {
+    color: rgb(67, 10, 221);
+    text-decoration: none;
+    width: 100%; 
+    text-align: center;
+    font: normal small-caps 30px/35px fantasy; 
+    padding-top: 2%;
+  
+  }
+.topButtonHeder:hover {
+    background: rgb(215, 215, 228);     
+}
+.topButtonHeder a:hover {
+    color: red;
+    text-decoration: none;
+     
+}

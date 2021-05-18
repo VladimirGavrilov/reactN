@@ -1,0 +1,92 @@
+[
+        {
+            "value": 100,
+            "id": "Austria"
+        },
+        {
+                "value": 2,
+                "id": "Belgium"
+                    
+        },
+        {
+                "value": 2, 
+                "id": "United Kingdom"
+        },
+        {
+                "value": 2,
+                "id": "Germany"
+        },
+        {
+                    "value": 10,
+                    "id": "Netherlands "
+        },
+        {
+                    "value": 10,
+                    "id": "France "            
+        },
+        {
+                    "value": 10,
+                    "id": "Switzerland"
+        },
+        {
+                    "value": 10,
+                    "id": "Hungary "
+                
+        },
+        {
+                "value": 10,
+                "id": "Poland "
+        },
+        {
+                "value": 10,
+                "id": "Russia "
+        },
+        {
+                "value": 10,
+                "id": "Slovakia "
+        },
+        {
+                "value": 10,
+                "id": "Ukraine"
+        },
+        {
+                "value": 10,
+                "id": "Czech Republic"
+        },
+        {
+                "value": 10,
+                "id": "Denmark "
+        },
+        {
+                "value": 10,
+                "id": "Finland "
+        },
+        {
+                "value": 10,
+                "id": "Sweden "
+        },
+        {
+                "value": 10,
+                "id": "Spain"
+        },
+        {
+                "value": 10,
+                "id": "Italy "
+        },
+        {
+                "value": 2,
+                "id": "Macedonia"
+        },
+        {
+                "value": 1,
+                "id": "Portugal"
+        },
+        {
+                "value": 1,
+                "id": "Slovenia"
+        },
+        {
+                "value": 1,
+                "id": "Turkey"
+        }
+]
