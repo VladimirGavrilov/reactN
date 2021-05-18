@@ -29,13 +29,11 @@ function App(props){
    return( 
     
     <BrowserRouter>
-      <div className="wrapper">
-         <Header textBottom={props.state.textListCont}/>
-                {/* <Content/>
-                <Footer />
+    <div className="wrapper">
+      <Header textBottom= {props.state.textListCont}/>
+      <Content contry={props.state.contry} textBottom={props.state.textListCont}/>
+                {/* <Footer />
                 <Treemap />  */}
-                  
-         <h1>s</h1>
       </div>
     </BrowserRouter>       
       )

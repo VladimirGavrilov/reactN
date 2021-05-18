@@ -8,7 +8,7 @@ function TextListContent(props) {
     return (
         <div>
             <h2>Как проголосовать</h2>
-                <p className='howToUse'>{props.dataText.howToUse}</p>
+            <p className='howToUse'>{props.contry.TextListContent.howToUse}</p>
             </div>  
     )
   }
