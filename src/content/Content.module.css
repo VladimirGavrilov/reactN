@@ -12,10 +12,10 @@
 }
 
 .banner {
-margin-right: 10px;
-   align-self: flex-start;
-   display: flex;
-   justify-content: flex-start;
+    margin-right: 10px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 .banner img {
     

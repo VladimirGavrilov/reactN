@@ -10,8 +10,7 @@ import {Treemap} from "d3plus-react";
 
 function App(props){ 
   //  debugger;
-   return( 
-    
+   return(     
     <BrowserRouter>
     <div className="wrapper">
       <Header textBottom= {props.state.textListCont}/>
