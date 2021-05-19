@@ -22,7 +22,10 @@
     text-decoration: none;
     width: 100%; 
     text-align: center;
-    font: normal small-caps 30px/35px fantasy; 
+    font-family: 'Roboto', sans-serif, Impact, fantasy;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+    font-size:  xx-large;
     padding-top: 2%;
   
   }

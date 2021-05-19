@@ -7,10 +7,10 @@ function Header (props) {
         return (
           <header className={st.topHeder}>          
                 <div className={st.topButtonHeder}>
-              <Link to="/howToVote">{props.textBottom.bottomText2}</Link>
+              <Link to="/howToVote">{props.textBottom.bottomText1}</Link>
                 </div>
                 <div className={st.topButtonHeder}>
-              <Link to="/itogToVote">{props.textBottom.bottomText1}</Link>
+              <Link to="/itogToVote">{props.textBottom.bottomText2}</Link>
                 </div>                 
           </header>
       );

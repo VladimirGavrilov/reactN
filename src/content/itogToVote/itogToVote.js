@@ -1,12 +1,12 @@
  import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import TextListContent from './textListCont'
-import './ListGr.css'
+import st from './itogToVote.module.css'
 
-function ItogToVote() {      
+function ItogToVote(props) {      
     return(
-        <div>
+        <div className={st.itogList}>
+            <p>{props.contry.AUT.metr_ru}</p>
             Список с кнопками  и диограмами
         </div>
     )     

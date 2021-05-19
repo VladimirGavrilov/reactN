@@ -8,22 +8,6 @@ import Footer from './footer/Footer';
 import './App.css';
 import {Treemap} from "d3plus-react";
 
-// function listContry() {       
-//     return dataContry.filter(item => item.grName != "Z")    
-// }
-// const d2 = []
-// const uefaConr =  dataContry.filter( (cnt) => {
-
-// }
-
-// )
-
-
-// const methods = {
-//   groupBy: "id",
-//   data: uefaConr,
-//   size: d => d.value
-// };
 function App(props){ 
   //  debugger;
    return( 
@@ -31,7 +15,7 @@ function App(props){
     <BrowserRouter>
     <div className="wrapper">
       <Header textBottom= {props.state.textListCont}/>
-      <Content contry={props.state.contry} textBottom={props.state.textListCont}/>
+      <Content contry={props.state.contry} textContent={props.state.textListCont}/>
                 {/* <Footer />
                 <Treemap />  */}
       </div>
