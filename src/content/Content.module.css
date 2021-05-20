@@ -1,28 +1,25 @@
 
 .contentCentr {
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: flex-start;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: stretch;
+   
 }
 
 .banner {
-    margin-right: 10px;
-    align-self: flex-start;
-    display: flex;
-    justify-content: flex-start;
+    margin-right: 10px;  
 }
-.banner img {
+/* .banner img {
     
 }
 .cards{
-    flex-basis: 67%;
-    flex-shrink: 1;
-    align-self: stretch;
+    
+   
 }
-
+ */

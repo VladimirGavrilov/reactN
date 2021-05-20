@@ -1,8 +1,11 @@
 .textListCont{
      font-family: 'Roboto', sans-serif;
-
+     font-size: x-large;
+     width: 60vw;
 }
 .textListCont p {
-     font-family: 'Roboto', sans-serif;
-     font-stretch: ultra-expanded;
+     font-stretch: ultra-expanded;   
+     border-radius: 20px;
+     padding-left: 10px;
 }
+

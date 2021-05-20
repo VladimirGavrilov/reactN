@@ -1,4 +1,14 @@
 .itogList{
+    font-family: 'Roboto', sans-serif;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-column-gap: 5px;
+}
+.itogContry{
     border:2px solid burlywood;
+    border-radius: 20px;
+    padding-left: 10px;
+   
 
 }

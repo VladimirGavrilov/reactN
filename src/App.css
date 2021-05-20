@@ -1,7 +1,9 @@
 .wrapper{
-  display: grid; 
+  display: grid;
   height: auto; 
   margin: 0 auto;  
+  display: flex;
+  flex-direction: column;
 }  
 
 .contentCentr{

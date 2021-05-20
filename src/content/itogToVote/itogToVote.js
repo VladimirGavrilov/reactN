@@ -1,23 +1,26 @@
- import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import st from './itogToVote.module.css'
 
+function ItogToVote(props) {
 
-function ItogToVote(props) { 
+    const contryEur = props.contry
+    const cont = Object.values(contryEur)
+    const listGrups = cont.filter((gr) => gr.length == 4)
     // debugger;
-    const cont = Object.values(props.contry)
-    const totalOutput = cont.map((con) => 
-    <giv id={con.name_en}>
-        <h5>{con.name_ru}</h5>
-        <h6>Группа {con.grName}</h6>
-        <p>Голосов {con.value}</p>
-    </giv> )
-    return(
-        <div className={st.itogList}>
-            <div>{totalOutput}</div>
-        </div>
-    )     
+    const listGrup = listGrups.map(lGR => lGR.map((lgr) => (
+        <button id={lgr.name_en} className={st.itogContry}>         
+                <h6>{lgr.name_ru} {lgr.value}</h6>
+        </button>
+    )))
+    return (
+     <div>
+        <h3>Выбери команду</h3>
+        <div className={st.itogList}>{listGrup}</div>
+     </div>
+        
+    )
 }
 
 export default ItogToVote;
