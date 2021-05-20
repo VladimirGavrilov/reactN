@@ -8,11 +8,17 @@ function ItogToVote(props) {
     const contryEur = props.contry
     const cont = Object.values(contryEur)
     const listGrups = cont.filter((gr) => gr.length == 4)
+    let openModal = () => {alert(`Открыть`)}
     // debugger;
     const listGrup = listGrups.map(lGR => lGR.map((lgr) => (
-        <button id={lgr.name_en} className={st.itogContry} onClick= {() => {alert(`${lgr.value}`)} } >         
-                <h6>{lgr.name_ru} </h6>
-        </button>
+        
+        
+        <div id={lgr.name_en} className={st.itogContry}  >
+        <h6>{lgr.name_ru} </h6>
+            <input type="number" step="10"/>
+            <input type="submit" onClick= {openModal}/>
+                
+        </div>
     )))
     return (
      <div>
