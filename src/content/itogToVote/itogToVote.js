@@ -10,8 +10,8 @@ function ItogToVote(props) {
     const listGrups = cont.filter((gr) => gr.length == 4)
     // debugger;
     const listGrup = listGrups.map(lGR => lGR.map((lgr) => (
-        <button id={lgr.name_en} className={st.itogContry} >         
-                <h6>{lgr.name_ru} {lgr.value}</h6>
+        <button id={lgr.name_en} className={st.itogContry} onClick= {() => {alert(`${lgr.value}`)} } >         
+                <h6>{lgr.name_ru} </h6>
         </button>
     )))
     return (
