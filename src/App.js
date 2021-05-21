@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import Header from './header/Header';
 import Content from './content/Content';
 import Footer from './footer/Footer';
-import MapComponent from './mapComponent/mapComponent'
+import Map from './mapComponent/mapComponent'
 import './App.css';
 
 
@@ -16,7 +16,7 @@ function App(props){
       <div className="wrapper">
         <Header textBottom= {props.state.textListCont}/>
         <Content contry={props.state.contry} textContent={props.state.textListCont}/>
-        <MapComponent />
+        <Map />
         <Footer />
       </div>
     </BrowserRouter>       
